@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserver1" />
+        <module name="eurekaserver2" />
+        <module name="eurekaserver3" />
+        <module name="serverprovider1" />
+        <module name="serverprovider2" />
+        <module name="springcloud-common" />
+        <module name="springcloud-feign" />
+        <module name="springcloud-zool" />
+        <module name="testfeign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaserver4" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
